@@ -2,7 +2,7 @@ class Omar < Formula
   desc "Agent orchestration dashboard for tmux"
   homepage "https://omarmy.ai"
   version "0.1.0"
-  license "MIT"
+  license "BSD-2-Clause"
 
   depends_on "tmux"
 
