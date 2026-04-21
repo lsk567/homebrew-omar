@@ -1,7 +1,7 @@
 class Omar < Formula
   desc "Agent orchestration dashboard for tmux"
   homepage "https://omarmy.ai"
-  version "0.2.4"
+  version "0.2.5"
   license "BSD-2-Clause"
 
   depends_on "tmux"
@@ -9,22 +9,22 @@ class Omar < Formula
   on_macos do
     on_arm do
       url "https://github.com/lsk567/omar/releases/download/v#{version}/omar-darwin-arm64.tar.gz"
-      sha256 "f52a1b7c68c55a4334c571c1e5d42ce572fdaae5aca46c0748d3b680a5488c44"
+      sha256 "9a9e4fde9f64cd556e2aea75f0a5736aca724e4b304adfb12eb57ca04353b201"
     end
     on_intel do
       url "https://github.com/lsk567/omar/releases/download/v#{version}/omar-darwin-amd64.tar.gz"
-      sha256 "7f714acf253b8f8d0d8b59ec3e39ab7371bc368a65726be7b1e6178c8e0e5a3e"
+      sha256 "0ae9ea640970d682b774910d336f913b079e596ca29797601801dfdf47d5e273"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lsk567/omar/releases/download/v#{version}/omar-linux-arm64.tar.gz"
-      sha256 "36ca2895c639237b630fce078bb97d0625b005fc1bc7400615fdbe3fb71bfca4"
+      sha256 "faa0d9a6b6e751c7481cf719dfe8957cdc84382006aeaeacb2c628414ded2e0c"
     end
     on_intel do
       url "https://github.com/lsk567/omar/releases/download/v#{version}/omar-linux-amd64.tar.gz"
-      sha256 "e183c2dd5b4a147316ec2cfcc59968be6084dc94393a9b3577c519aec5f3dffa"
+      sha256 "02b79b95d9b91ae86cb0f7107aafa43ac18dc2a89d8c0baec9ee1b9f633e3c45"
     end
   end
 
